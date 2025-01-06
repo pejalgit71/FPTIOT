@@ -50,32 +50,32 @@ if menu == "Introduction":
 #     Welcome to the IoT and EoT Security Framework Simulation.  
 #     Use the navigation on the left to explore different functions.
 #     """)
-html_content = """
-<!DOCTYPE html>
-<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-<style>
-.w3-tangerine {
-  font-family: "Tangerine", serif;
-}
-</style>
-<body>
-
-<div class="w3-container w3-tangerine">
-  <p class="w3-xxlarge">Making the Web Beautiful!</p>
-  <p class="w3-xxxlarge">Making the Web Beautiful!</p>
-  <p class="w3-jumbo">Making the Web Beautiful!</p>
-</div>
-
-</body>
-</html>
-"""
-
-# Embed the HTML in Streamlit
-st.components.v1.html(html_content, height=300)
+    html_content = """
+    <!DOCTYPE html>
+    <html>
+    <title>W3.CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+    .w3-tangerine {
+      font-family: "Tangerine", serif;
+    }
+    </style>
+    <body>
+    
+    <div class="w3-container w3-tangerine">
+      <p class="w3-xxlarge">Making the Web Beautiful!</p>
+      <p class="w3-xxxlarge">Making the Web Beautiful!</p>
+      <p class="w3-jumbo">Making the Web Beautiful!</p>
+    </div>
+    
+    </body>
+    </html>
+    """
+    
+    # Embed the HTML in Streamlit
+    st.components.v1.html(html_content, height=300)
 
 elif menu == "Physical Security":
     physical_security.show()  # Ensure no st.sidebar logic here

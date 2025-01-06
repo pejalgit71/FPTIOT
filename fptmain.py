@@ -7,7 +7,7 @@ from pages import (
     network_security,
     threat_detection,
     pipeline_monitoring,
-    cloud_reports
+    cloud_reports,
 )
 
 # Sidebar Navigation
@@ -28,17 +28,16 @@ if menu == "Introduction":
     st.write("""
     Welcome to the IoT and EoT Security Framework Simulation.  
     Use the navigation on the left to explore different functions.
-    Project by UTP TEAM 2025
     """)
 elif menu == "Physical Security":
-    physical_security.show()
+    physical_security.show()  # Ensure no st.sidebar logic here
 elif menu == "IoT Device Monitoring":
-    iot_monitoring.show()
+    iot_monitoring.show()  # Ensure no st.sidebar logic here
 elif menu == "Network Security":
-    network_security.show()
+    network_security.show()  # Ensure no st.sidebar logic here
 elif menu == "Threat Detection and Response":
-    threat_detection.show()
+    threat_detection.show()  # Ensure no st.sidebar logic here
 elif menu == "Pipeline Monitoring":
-    pipeline_monitoring.show()
+    pipeline_monitoring.show()  # Ensure no st.sidebar logic here
 elif menu == "Cloud Integration & Reports":
-    cloud_reports.show()
+    cloud_reports.show()  # Ensure no st.sidebar logic here

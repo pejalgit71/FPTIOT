@@ -11,6 +11,7 @@ from pagess import (
 )
 
 # Sidebar Navigation
+st.sidebar.image("UTPLogo.png", use_container_width=True)
 st.sidebar.title("Navigation")
 menu = st.sidebar.radio("Select a Function", [
     "Introduction",

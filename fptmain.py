@@ -28,6 +28,7 @@ if menu == "Introduction":
     st.write("""
     Welcome to the IoT and EoT Security Framework Simulation.  
     Use the navigation on the left to explore different functions.
+    Project by UTP TEAM 2025
     """)
 elif menu == "Physical Security":
     physical_security.show()

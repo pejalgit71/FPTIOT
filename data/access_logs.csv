@@ -1,0 +1,7 @@
+Timestamp,User,Access
+2024-12-18 10:10:00,User_1,Granted
+2024-12-18 10:12:00,User_2,Denied
+2024-12-18 10:15:00,User_3,Granted
+2024-12-18 10:20:00,User_4,Denied
+2024-12-18 10:25:00,User_5,Granted
+2024-12-18 10:28:00,User_6,Granted

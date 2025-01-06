@@ -1,0 +1,6 @@
+Timestamp,Event,Severity
+2024-12-18 10:00:00,No Anomaly,Low
+2024-12-18 10:05:00,Unauthorized Access,High
+2024-12-18 10:10:00,No Anomaly,Low
+2024-12-18 10:15:00,Malware Detected,Medium
+2024-12-18 10:20:00,No Anomaly,Low

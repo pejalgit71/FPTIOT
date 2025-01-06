@@ -42,7 +42,10 @@ if menu == "Introduction":
     
     <div class="w3-container w3-lobster">
      <!-- <p class="w3-xlarge font-effect-shadow-multiple">Making the Web!</p> -->
-      <p class="w3-xxlarge font-effect-shadow-multiple">Making the Web!</p>
+      <p class="w3-xxlarge font-effect-shadow-multiple">FPT IOT Project 2025</p>
+      <p class="w3-xlarge font-effect-shadow-multiple">Project Manager: Dr. Norashikin Bt Yahya</p>
+      <p class="w3-xlarge font-effect-shadow-multiple">Member: Dr. Nasreen Bt Badruddin</p>
+      <p class="w3-xlarge font-effect-shadow-multiple">Member: Ts Faizal Ahmad Fadzil</p>
      <!-- <p class="w3-xxxlarge font-effect-shadow-multiple">Making the Web!</p> -->
     </div>
     

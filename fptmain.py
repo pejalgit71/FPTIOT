@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Importing pages
-from pages import (
+from pagess import (
     physical_security,
     iot_monitoring,
     network_security,

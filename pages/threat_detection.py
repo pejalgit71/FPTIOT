@@ -8,6 +8,7 @@ def show():
 
     # Anomaly Detection Simulation
     st.write("### Anomaly Detection")
+    
     # anomaly = random.choice(["No Anomaly", "Anomaly Detected"])
     anomaly_data = pd.read_csv('data/anomaly_data.csv')
     st.write("### Anomaly Detection Logs")

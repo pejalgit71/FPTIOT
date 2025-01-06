@@ -24,7 +24,7 @@ menu = st.sidebar.radio("Select a Function", [
 
 # Main Content
 if menu == "Introduction":
-    st.title("IoT and EoT Security Framework Simulation")
+    st.title("IoT and EoT Security Framework Simulation FPT-UTP")
 
     html_content = """
     <!DOCTYPE html>

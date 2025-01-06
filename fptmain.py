@@ -32,18 +32,18 @@ if menu == "Introduction":
     <title>W3.CSS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
     <style>
-    .w3-tangerine {
-      font-family: "Tangerine", serif;
+    .w3-lobster {
+      font-family: "Lobster", Sans-serif;
     }
     </style>
     <body>
     
-    <div class="w3-container w3-tangerine">
-      // <p class="w3-xxlarge">Making the Web Beautiful!</p>
-      <p class="w3-xxxlarge">Making the Web Beautiful!</p>
-      // <p class="w3-jumbo">Making the Web Beautiful!</p>
+    <div class="w3-container w3-lobster">
+     <!-- <p class="w3-xlarge font-effect-shadow-multiple">Making the Web!</p> -->
+      <p class="w3-xxlarge font-effect-shadow-multiple">Making the Web!</p>
+     <!-- <p class="w3-xxxlarge font-effect-shadow-multiple">Making the Web!</p> -->
     </div>
     
     </body>

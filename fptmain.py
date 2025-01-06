@@ -32,20 +32,21 @@ if menu == "Introduction":
     <title>W3.CSS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
     <style>
     .w3-lobster {
-      font-family: "Lobster", Sans-serif;
+      font-family: "Lobster", serif;
     }
     </style>
     <body>
     
     <div class="w3-container w3-lobster">
      <!-- <p class="w3-xlarge font-effect-shadow-multiple">Making the Web!</p> -->
-      <p class="w3-xxlarge font-effect-shadow-multiple">FPT IOT Project 2025</p>
-      <p class="w3-xlarge font-effect-shadow-multiple">Project Manager: Dr. Norashikin Bt Yahya</p>
-      <p class="w3-xlarge font-effect-shadow-multiple">Member: Dr. Nasreen Bt Badruddin</p>
-      <p class="w3-xlarge font-effect-shadow-multiple">Member: Ts Faizal Ahmad Fadzil</p>
+      <p class="w3-xxlarge">FPT IOT Project 2025</p>
+      <p class="w3-xlarge">Project Manager: Dr. Norashikin Bt Yahya</p>
+      <p class="w3-xlarge">Member: Dr. Nasreen Bt Badruddin</p>
+      <p class="w3-xlarge">Member: Ts Faizal Ahmad Fadzil</p>
+      
      <!-- <p class="w3-xxxlarge font-effect-shadow-multiple">Making the Web!</p> -->
     </div>
     

@@ -44,7 +44,7 @@ def show():
         data = response.json()
         feeds = data.get("feeds", [])
         if feeds:
-            st.write("Latest Data from ThingSpeak:")
+            st.write("Latest Data from Piping Monitoring System:")
             for feed in feeds:
                 entry_id = feed.get("entry_id")
                 field1 = feed.get("field1")  #Temperature

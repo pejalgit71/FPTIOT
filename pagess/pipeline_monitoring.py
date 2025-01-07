@@ -59,7 +59,7 @@ def show():
     if pipelinevalue > 76.00:
         pipeline_status = "Leak"
         st.error(f"Pipeline Alert: {pipeline_status} detected!")
-    else if pipelinevalue < 76.00:
+    if pipelinevalue < 76.00:
         pipeline_status = "Preasure Drop"
         st.error(f"Pipeline Alert: {pipeline_status} detected!")
     else:

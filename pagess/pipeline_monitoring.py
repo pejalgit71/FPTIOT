@@ -55,11 +55,12 @@ def show():
             st.warning("No data available.")
     else:
         st.error("Failed to fetch data. Please check your API key and channel ID.")
+    normal = 76.0
     pipelinevalue=field3
-    if (pipelinevalue > 76.0):
+    if pipelinevalue > normal:
         pipeline_status = "Leak"
         st.error(f"Pipeline Alert: {pipeline_status} detected!")
-    if (pipelinevalue < 76.0):
+    elif pipelinevalue < normal:
         pipeline_status = "Preasure Drop"
         st.error(f"Pipeline Alert: {pipeline_status} detected!")
     else:

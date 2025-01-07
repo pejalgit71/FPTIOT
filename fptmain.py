@@ -56,7 +56,7 @@ if menu == "Introduction":
     """
     
     # Embed the HTML in Streamlit
-    st.components.v1.html(html_content, height=300)
+    st.components.v1.html(html_content, height=400)
 
 elif menu == "Physical Security":
     physical_security.show()  # Ensure no st.sidebar logic here

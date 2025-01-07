@@ -1,4 +1,5 @@
 import streamlit as st
+import importlib
 
 # Importing pages
 from pagess import (
@@ -9,6 +10,14 @@ from pagess import (
     pipeline_monitoring,
     cloud_reports,
 )
+
+importlib.reload(physical_security)
+importlib.reload(iot_monitoring)
+importlib.reload(network_security)
+importlib.reload(threat_detection)
+importlib.reload(pipeline_monitoring)
+importlib.reload(cloud_reports)
+
 
 # Sidebar Navigation
 st.sidebar.image("UTP-logo.png", use_container_width=True)

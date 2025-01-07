@@ -14,12 +14,12 @@ def show():
     st.write("Simulate real-time monitoring for pipelines.")
 
     # Pipeline Integrity Simulation
-    st.write("### Pipeline Status")
-    pipeline_status = random.choice(["Normal", "Leak Detected", "Pressure Drop"])
-    if pipeline_status == "Normal":
-        st.success("Pipeline operating normally.")
-    else:
-        st.error(f"Pipeline Alert: {pipeline_status} detected!")
+    # st.write("### Pipeline Status")
+    # pipeline_status = random.choice(["Normal", "Leak Detected", "Pressure Drop"])
+    # if pipeline_status == "Normal":
+    #     st.success("Pipeline operating normally.")
+    # else:
+    #     st.error(f"Pipeline Alert: {pipeline_status} detected!")
 
     # Pipeline Sensor Data
     # st.write("### Pipeline Sensor Data")

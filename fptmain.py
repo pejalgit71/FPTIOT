@@ -53,8 +53,8 @@ if menu == "Introduction":
     <div class="w3-container w3-lobster">
      <!-- <p class="w3-xlarge font-effect-shadow-multiple">Making the Web!</p> -->
       <p class="w3-xxlarge">FPT IOT Project 2025</p>
-      <p class="w3-xlarge">Project Manager: Dr. Norashikin Bt Yahya</p>
-      <p class="w3-xlarge">Member: Dr. Nasreen Bt Badruddin</p>
+      <p class="w3-xlarge">Project Manager: Dr. Nasreen Bt Badruddin</p>
+      <p class="w3-xlarge">Member: Dr. Norashikin Bt Yahya</p>
       <p class="w3-xlarge">Member: Ts Faizal Ahmad Fadzil</p>
       
      <!-- <p class="w3-xxxlarge font-effect-shadow-multiple">Making the Web!</p> -->
